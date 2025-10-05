@@ -27,7 +27,7 @@
     "dev": "vite --config vite/config.dev.mjs",
     "build": "vite build --config vite/config.prod.mjs",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://MohsenBaqi.github.io/phaser-pushpull",
   "devDependencies": {
